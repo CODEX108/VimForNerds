@@ -1,5 +1,11 @@
-Hello I am learning vim
-This is thrilling
+=============================
+Exiting Vim
+==============================
+:wq ->write and exit
+:q! -> exit vim without saving the content
+:q -> close the unmodified file
+
+
 
 ==========================================================
 Inserting in vim
