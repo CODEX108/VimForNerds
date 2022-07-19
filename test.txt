@@ -1,0 +1,66 @@
+Hello I am learning vim
+This is thrilling
+
+==========================================================
+Inserting in vim
+==========================================================
+1. 'o' inserts on a new line
+2. 'a' inserts after the position of the current cursor
+3. 'i'  inserts before the position of the cursor
+4. 'O' Caps O -> opens the line above the current line
+5. 'I' Caps I ->jumps to the beginning of the line
+6. 'A' Caps A -> jumps to the end of the line and appends the content 
+
+==========================================================
+Moving using arrow keys
+===========================================================
+ k - goes up
+ j - goes down
+ h - goes left
+ l -goes right
+ 
+ Undo
+ u - undo
+ ctrl+r -> redo
+=====================================================================
+ Copy & Paste
+=====================================================================
+
+ y -> yankking / copying
+ p -> pasting
+ d ->deletion
+ dd- > delete the whole line
+ 5 dd -> deletes 5 lines
+ Y -> copies whole line
+ C -> modifies the line from the current cursor pointer
+ D -> deletes the whole line from the current cursor pointer
+
+exit visual mode -> esc*2
+type in the visual mode -> 1. Enter the visual mode -> press v
+						    2. select the line/word type 'cc'
+							
+=====================================================================================
+JUMPING THROUGH WORDS
+====================================================================================
+w -> jump through words in a forward direction (note: this considers whitespaces as the gap between words)
+
+b -> jump through words in a backward direction 
+
+e -> jumps to the end of the word
+
+dw -> deletes a word
+d2w -> deletes two words
+NOTE :- If your cursor is pointing in between a word which you want to delete the above commad won't fetch the desired output , you need to write it as follows
+			diw (delete in a word)
+			ciw (change in a word)
+		 	
+0 -> goes to the beginning of the line
+$ -> goes to the end of the line
+
+===========================================================================
+Write code in Vim :]:
+==========================================================================
+
+JUMPING from beginning of the parathesis '{' to the end -> use the '%'
+
+delete everything in the bracket including the bracket -> d%
