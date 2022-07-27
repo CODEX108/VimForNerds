@@ -1,3 +1,4 @@
+
 =============================
 Exiting Vim
 ==============================
@@ -70,3 +71,20 @@ Write code in Vim :]:
 JUMPING from beginning of the parathesis '{' to the end -> use the '%'
 
 delete everything in the bracket including the bracket -> d%
+
+t -> Jumps before the specified symbol
+f -> Jumps on the (finds) the position of the specified symbol
+
+..................................................
+Consider you have a statement as follows
+
+switch asdsdkj ksd sdjh h sd;ksdlkjdsd ( )
+->Now lets say you want to delete all the gibberish before the open parethesis you can type :    
+  dt(
+
+....................................................
+ f( -> will find the open parethesis
+
+==================================================================
+Jump to the beginning of the file -> gg
+Jump to the  end of  the file ->  Shift key+g
