@@ -23,6 +23,16 @@ If you have like 20 settings, you  don't want to set them all the time every tim
 
 If the file is there, vim loads it, or VIM is going to open it. If it's not there,it will get created  in VIM and Vim is still going to load it. So we're going to open up the VIM rc file .Enter the insert mode and set the reqired settings and customize accordingly
 
+#### *This is just an example*
+```js
+set number
+set relativenumber
+set tabstop=3
+set autoindent
+set shiftwidth=4
+set mouse=a
+colorscheme slate
+```
 
 ## Documentation
 
