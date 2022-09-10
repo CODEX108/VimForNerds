@@ -14,8 +14,25 @@ Vim is rock stable and is continuously being developed to become even better. Am
 
 ##  Three modes of Vim
 -  insert (i)
+-  visual (v)
 - command (:)
-- visual (v)
+
+Command mode (Where you give commands to the editor to get things done . Press ESC for command mode)
+Most of them below are in command mode:
+```js
+x - to delete the unwanted character
+u - to undo the last the command and U to undo the whole line
+CTRL-R to redo
+A - to append text at the end
+:wq - to save and exit
+:q! - to trash all changes
+dw - move the cursor to the beginning of the word to delete that word
+2w - to move the cursor two words forward.
+3e - to move the cursor to the end of the third word forward.
+0 (zero) to move to the start of the line.
+d2w - which deletes 2 words .. number can be changed for deleting the number of consecutive words like d3w
+dd to delete the line and 2dd to delete to line .number can be changed for deleting the number of consecutive words
+```
 
 ## Setting up Vim Configuration File
 If you have like 20 settings, you  don't want to set them all the time every time you open Vim. So you want to have a settings file a  configuration file that does it for you. And for that you have the **VIM rc file**, which is located  at the user directory
