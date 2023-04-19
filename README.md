@@ -1,5 +1,5 @@
 # Vim
-<img alt= exit_vim height=350px  src="https://pics.onsizzle.com/wq-killal-vim-9-here-are-multiple-ways-to-exit-21791909.png" /> 
+
 Vim a text editor for writing code where you navigate around the screen
 with a keyboard instead of a mouse it's based on the original unix text editor
 vi which came about in 1976 then, vi improved or vim followed it in 1991 with
