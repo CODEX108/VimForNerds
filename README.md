@@ -90,6 +90,116 @@ In normal mode, you can undo changes with the `u` command and redo changes with 
 
 Remember to use proper Markdown formatting and headings to make your content organized and easy to read. Markdown supports basic formatting such as bold, italic, code blocks, bullet points, and more, which you can utilize to enhance the presentation of your explanations.
 
+Certainly! Below is a Markdown-based Vim tutorial for intermediate and advanced users. Feel free to modify and expand as needed:
+
+## Intermediate
+1. [**Advanced Movement**](#advanced-movement)
+2. [**Working with Multiple Files**](#working-with-multiple-files)
+3. [**Customizing Vim**](#customizing-vim)
+4. [**Advanced Editing**](#advanced-editing)
+5. [**Advanced Search and Replace**](#advanced-search-and-replace)
+6. [**Working with Macros**](#working-with-macros)
+
+## Advanced Movement
+
+### 1. Marks
+
+Use marks to quickly navigate between different parts of a file.
+
+- Set a mark: `m{letter}`
+- Jump to a mark: \`{letter}
+
+### 2. Jumps and Change List
+
+Navigate through jump locations and track changes.
+
+- Jump to the previous location: `Ctrl+O`
+- Jump to the next location: `Ctrl+I`
+- View change list: `:changes`
+
+## Working with Multiple Files
+
+### 1. Buffers
+
+Manage multiple files using buffers.
+
+- Open a file in a new buffer: `:badd {file}`
+- Switch between buffers: `:bnext`, `:bprev`
+- List all buffers: `:ls`
+
+### 2. Tabs
+
+Organize buffers using tabs.
+
+- Open a new tab page: `:tabnew`
+- Switch between tabs: `gt` (next tab), `gT` (previous tab)
+- Close a tab: `:tabclose`
+
+## Customizing Vim
+
+### 1. Configuration Files
+
+Personalize your Vim environment by editing your `vimrc` file.
+
+- Edit vimrc: `:e $MYVIMRC`
+- Reload vimrc: `:source $MYVIMRC`
+
+### 2. Plugins
+
+Extend Vim's functionality with plugins.
+
+- Use a plugin manager like [Vim-Plug](https://github.com/junegunn/vim-plug).
+- Install plugins: Add `Plug 'user/repository'` to your vimrc, then run `:PlugInstall`.
+
+## Advanced Editing
+
+### 1. Visual Mode
+
+Perform advanced text manipulation in visual mode.
+
+- Visual block mode: `Ctrl+V`
+- Visual line mode: `Shift+V`
+
+### 2. Registers
+
+Utilize registers to copy and paste text.
+
+- Yank to a register: `"ayy`
+- Paste from a register: `"ap`
+
+## Advanced Search and Replace
+
+### 1. Global Commands
+
+Execute commands on specific lines or patterns.
+
+- Run a command on all lines matching a pattern: `:g/pattern/command`
+
+### 2. Substitution with Confirmation
+
+Perform substitutions with confirmation.
+
+- Substitute all occurrences in a line: `:s/pattern/replacement/gc`
+
+## Working with Macros
+
+### 1. Recording Macros
+
+Automate repetitive tasks using macros.
+
+- Record a macro: `q{register}`
+- Execute a macro: `@{register}`
+
+### 2. Repeat Last Macro
+
+Repeat the last recorded macro.
+
+- Repeat last macro: `@@`
+
+---
+
+These are just a few examples of the many advanced features Vim has to offer. Experiment with these concepts and explore the vast world of Vim customization and efficiency. Happy editing!
+
 ## Documentation
 
 [Official Vim Documentation](https://www.vim.org/)
